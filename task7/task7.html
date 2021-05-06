@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+     * {
+         padding: 0;
+         margin: 0;
+     }
+     .clear {
+         clear: both;
+     }
+.header {
+    width: 100%;
+    min-width: 1280px;
+    height: 57px;
+    background-color: #fff;
+    position: relative;
+}
+.book {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+margin-top: auto;
+margin-bottom: auto;
+  margin-left: 60px;  
+  float: left;
+}
+.bookwords {
+    line-height: 57px;
+    margin-left: 100px;
+    font-size: 21px;
+    float: left;
+}
+#nav {
+    position: absolute;
+    right: 70px;
+    
+}
+#nav ul li {
+    list-style: none;
+    float:left ;
+    
+}
+#nav ul li a {
+    display: block;
+    height: 57px;
+    line-height: 57px;
+    font-size: 14px;
+    padding: 0 18px;
+    color: #787b83;
+    text-decoration: none;
+}
+#nav ul li a:hover {
+    border-bottom: 2px solid #e74f4d;
+    color:#e74f4d ;
+}
+
+.banner {
+    width: 100%;
+    height: 690px;
+    background: url(bac1.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 1px;
+    position: relative;
+}
+.words1 {
+    position: absolute;
+    
+    font-size: 60px;
+    color: #fff;
+    left: 166px;
+    top: 255px;
+    
+}
+.words2 {
+    position: absolute;
+    font-size: 21px;
+    color: #fff;
+left: 166px;
+top: 330px;
+} 
+.words3 {
+    position: absolute;
+    font-size: 21px;
+    color: #fff;
+left: 166px;
+top: 360px;
+}
+.box1 {
+    position: absolute;
+    width: 332px;
+    height: 63px;
+    background-color: #e74f4d;
+    left: 166px;
+    top: 450px;
+}
+.box-words {
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    width: 332px;
+    height: 63px;
+    line-height: 63px;
+    text-align: center;
+
+}
+.banner2 {
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    
+}
+.slogan {
+    font-size: 14px;
+    color: #767777;
+    width: 160px;
+    height: 50px;
+    margin-top: 45px;
+    margin-left: -30px;
+    
+    
+}
+.sep1,.sep2,.sep3,.sep4 {
+    float: left;
+    padding: 0 120px;
+    margin-top: 45px;
+    border-right: 2px solid #aaaaab;
+    
+}
+.sep4 {
+    border: none;
+}
+.banner3 {
+    background-color: #ededed;
+    width: 100%;
+    height: 360px;
+    
+}
+.bigslogan {
+    display: block;
+    color: #a1a1a1;
+    font-size: 54px;
+   text-align: center;
+   margin-top: 50px;
+}
+.book2 {
+    margin-left: 700px;
+   margin-top: 100px;
+   text-align: center;
+}
+.banner4 {
+width: 100%;
+height: 340px;
+background: url(map.png);
+background-size: 100%;
+}
+.banner4so1 {
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+.banner4so2 {
+    font-size: 12px;
+    color: #ede8e7;
+    text-align: center;
+    padding-top: 50px;
+}
+select {
+    width: 236px;
+height: 36px;
+color: #e74f4d;
+border: #7e7373 1px solid;
+}
+.search {
+    width: 236px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: none;
+    padding-right: 200px;
+}
+.city,.province,.country,.search {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.each {
+    margin-left: 125px;
+}
+.pic {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.pic36 {
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
+.describe01 {
+    font-size: 24px;
+    color: #959696;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+}
+.describe02 {
+    font-size: 24px;
+    color: #959696;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+}
+.describe03 {
+    font-size: 24px;
+    color: #959696;
+    position: absolute;
+    top: 450px;
+    left: 750px;
+}
+.describe04 {
+    font-size: 24px;
+    color: #959696;
+    position: absolute;
+    top: 450px;
+    left: 1000px;
+}
+.person {
+    width: 100%;
+    height: 567px;      
+}
+.time {
+    height: 567px;
+    width: 60%;
+    display: block;
+    float: left;
+}
+.person01 {
+    float: right;
+    width: 30%;
+    height: 567px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 50px;
+} 
+.h01 {
+    
+    font-size: 30px;
+
+text-align: center;
+margin-top: 120px;
+margin-left: 70px;
+margin-right: 70px;
+}
+.h02 {
+    font-size: 12px;
+    color: #cfcfcf;
+   line-height: 30px;
+}
+.more {
+    display: block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #e74f4d;
+    border: #e74f4d 2px solid;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.red {
+    width: 30%;
+    height: 520px;
+    background-color: #e74f4d;
+    float: left;
+}
+.blank {
+    width: 30%;
+    height: 520px;
+    background-color: #ffffff;
+    float: left;
+}
+.pic4 {
+    width: 40%;
+    height: 520px;
+    background-color: #ffffff;
+    float: left;
+}
+.red01 {
+    font-size: 21px;
+    color: #fff;
+    margin-top: 180px;
+    text-align: center;
+}
+.blank01 {
+    font-size: 21px;
+    color: black;
+    margin-top: 180px;
+    text-align: center;
+}
+.more01 {
+    display: block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #f1f1f1;
+    border: #ffffff 2px solid;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.more02 {
+    display: block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #e74f4d;
+    border: #e74f4d 2px solid;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.word {
+    width: 100%;
+    height: 300px;
+}
+.h03 {
+    font-size: 21px;
+    text-align: center;
+    margin-top: 120px;
+}
+.h04 {
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+    margin-top: 60px;
+}
+.last {
+    height: 448px;
+    width: 100%;
+}
+.left {
+    float: left;
+    margin-left: 100px;
+    width: 30%;
+}
+.right {
+    float: right;
+    width: auto;
+}
+.h05,.h07,.h09 {
+    font-size:14px ;
+    margin-top: 40px;
+}
+.h06,.h08 {
+    font-size: 12px;
+    color: #adabab;
+    margin-top: 40px;
+}
+#more02 {
+    border: none;
+    color: black;
+}
+#name {
+    margin-right: 100px;
+    width: 311px;
+    height: 41px;
+    background-color: #ededee;
+    border: none;
+}
+#age {
+    margin-right: 100px;
+    width: 311px;
+    height: 41px;
+    background-color: #ededee;
+    border: none;
+}
+#way {
+    margin-right: 100px;
+    width: 311px;
+    height: 41px;
+    background-color: #ededee;
+    border: none;
+}
+#position {
+    margin-top: 20px;
+    margin-right: 100px;
+    width: 311px;
+    height: 41px;
+    background-color: #ededee;
+    border: none;
+}
+#life {
+    margin-top: 20px;
+    margin-right: 100px;
+    width: 639px;
+    height: 121px;
+    background-color: #ededee;
+    border: none;
+}
+#submits {
+    margin-top: 20px;
+    margin-right: 100px;
+    background-color: #dedede;
+    border: none;
+    width: 639px;
+    height: 121px;
+}
+.footer {
+    height: 361px;
+    width: 100%;
+    background-color: #33363f;
+}
+.footer01 {
+    display: inline-block;
+    margin-top: 100px;
+    font-size: 21px;
+    color: #fff;
+    margin-left: 700px;
+   
+    
+}
+.footer02 {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+#contain {
+    width: 431px;
+    height: 41px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.sm01,.sm02,.sm03,.sm04 {
+    margin-left: 100px;
+}
+.sm {
+    margin-left: 420px;
+    margin-top: 20px;
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <img src="编组.png" alt="" class="book"><span class="bookwords">新世界</span>
+        <div id="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">最新活动</a></li>
+                <li><a href="#">项目介绍</a></li>
+                <li><a href="#">爱心社区</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#" style="color: #e74f4d;"><img style="margin-right: 6px;" src="登录.png" alt="">登录</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="banner">
+<div class="words1">Time of new life</div>
+<div class="words2">新时代，年轻的人们让我们一起</div>
+<div class="words3">体验新生活，享受新生活</div>
+<div class="box1"><span class="box-words">开始体验</span></div>
+    </div>
+    <div class="banner2">
+        <div class="sep1">
+        <img src="sign1.png" alt="">
+        <p class="slogan">打造全新世界观，让你更爱你的生活</p>
+    </div>
+    <div class="sep2">
+        <img src="sign2.png" alt="">
+        <p class="slogan">丰富多彩的公益活动，发挥新世界的主人公意识</p>
+    </div>
+    <div class="sep3">
+        <img src="sign3.png" alt="">
+        <p class="slogan">时尚新理念，超前体验未知新生活</p>
+    </div>
+    <div class="sep4">
+        <img src="sign4.png" alt="">
+        <p class="slogan">完美的培养机制，培养你的全新世界观</p>
+    </div>
+    </div>
+    <div class="banner3">
+        <img class="book2" src="编组2.png" alt="">
+        <div class="bigslogan">关于新世界，你不知道的还有什么？</div>
+    </div>
+    <div class="banner4">
+<p class="banner4so1">查找新世界城市活动信息</p>
+<p class="banner4so2">每个城市的有不同的活动信息，请自主查询您所需要了解的城市</p>
+<div class="each"><span class="country"><select name="country" id="country">
+    <option value="">中国</option>
+    <option value="">美国</option>
+    <option value="">意大利</option>
+</select></span>
+<span class="province"><select name="province" id="province">
+    <option value="">重庆市</option>
+    <option value="">北京市</option>
+</select></span>
+ <span class="city"><select name="city" id="city">
+    <option value="">万州区</option>
+    <option value="">南岸区</option>
+</select></span>
+ <span class="search"><button class="search">搜索</button></span></div>
+    </div>
+    <div class="pic">
+        <img class="pic36" src="pic36.png" alt="">
+        <span class="describe01">北京活动</span>
+        <span class="describe02">深圳活动</span>
+        <span class="describe03">上海活动</span>
+        <span class="describe04">香港活动</span>
+    </div>
+    <div class="person">
+        <img class="time" src="time.png" alt="">
+        <div class="person01">
+            <p class="h01">新世界/<span style="color: #e74f4d;">01</span></p>
+            <h class="h02">新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界是个新世界</h>
+            <bottom class="more">更多详情</bottom>
+        </div>
+        <div class="redblank">
+            <div class="red"><p class="red01">新时代<br>热爱生活的我们</p>
+                <bottom class="more01">更多详情</bottom></div>
+            <div class="blank"><p class="blank01">新时代<br>热爱生活的我们</p><bottom class="more02">更多详情</bottom></div>
+            <div class="pic4"><img src="woman.png" width="100%" height="520px" alt=""></div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="word"><p class="h03">成为我们的志愿者</p>
+    <p class="h04">新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情<br>那就不要犹豫，快来加入我们，成为改变所有人生活的人 </p></div>
+    <div class="last">
+        <div class="left"><div class="h05">新世界志愿者协议</div><select name="more02" id="more02" style="width: 150px; height: 24px;">more</select>
+    <div class="h06">加入新世界志愿者的人员必须遵守中华人民共共和国的
+        相关法律法规，并且本着平等资源的原则</div>
+    <div class="h07">新世界志愿者权利</div><select name="more02" id="more02" style="width: 150px; height: 24px;">more</select>
+<div class="h08">新世界志愿者享受新世界内部所有资源共享的权利，并
+    且享受所在四新世界活动的优先参与资格</div>
+<div class="h09">更多条款
+</div>
+<select name="more02" id="more02" style="width: 100px; height: 24px;">more</select>
+</div>
+        <div class="right">
+            <input type="text" placeholder="姓名" id="name">
+            <input type="text" placeholder="年龄" id="age"><br>
+            <input type="text" placeholder="联系方式" id="way">
+            <input type="text" placeholder="联系地址" id="position"><br>
+            <input type="text" placeholder="请简单描述你的梦想生活" id="life"><br>
+            <button id="submits">提交申请</button>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+        <p class="footer01">联系我们</p>
+        <p class="footer02">为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯<br>也可以通过以下任何方式关注我们动态</p>
+        <input type="text" placeholder="someone@email.com" id="contain"><button style="height: 45px;width:51px">提交</button><br>
+        <div class="sm">
+        <img class="sm01" src="sm1.png" alt="">
+        <img class="sm02" src="sm2.png" alt="">
+        <img class="sm03" src="sm3.png" alt="">
+        <img class="sm04" src="sm4.png" alt="">
+    </div>
+    </div>
+</body>
+</html>
