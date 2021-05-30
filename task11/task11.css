@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 14px;
+}
+
+.container {
+    width: 100%;
+    min-width: 350px;
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: rgb(243, 243, 243);
+    
+}
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: #99dddd;
+    text-align: center;
+    overflow: hidden;
+}
+.header_1 {
+    font-size: 1.5rem;
+    line-height: 80px;
+    color: #fff;
+    margin-left: 1.5rem;
+display: inline;
+float: left;
+}
+
+.header_2 {
+    font-size: 1.5rem;
+    line-height: 80px;
+    color: #fff;
+    
+    display: inline;
+}
+.nav {
+    width: 100%;
+    height: 60px;
+    
+}
+.nav ul li {
+    width: 20%;
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 60px;
+    
+}
+a {
+    color: rgb(68, 182, 190);
+    text-decoration: none;
+}
+.nav ul li:hover {
+    border-bottom: 2px rgb(185, 236, 164) solid;
+}
+#dis {
+    overflow: hidden;
+}
+#dis ul li {
+    list-style: none;
+    width: 20%;
+    float: left;
+    text-align: center;
+    color: rgb(65, 141, 97);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+#dis ul li img {
+    display: block;
+    margin: 0 auto;
+}
+#sanlan {
+    overflow: hidden;
+}
+#sanlan ul li {
+    width: 33%;
+    float: left;
+    list-style: none;
+    text-align: center;
+    color: gray;
+}
+#sanlan ul li img {
+    display: block;
+    margin: 0 auto;
+}
+#sanlan {
+    padding-bottom: 20px;
+}
+.first {
+    font-size: 20px;
+    color: gray;
+}
+#box1 {
+    border-top: 2px solid grey;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+#box1 img {
+    display: block;
+    float: left;
+    margin-top: 20px;
+}
+.wenan {
+    float: left;
+   width: 205px;
+   height: 90px;
+   background-color: darkgray;
+   margin-top: 20px;
+   margin-left: 20px;
+   text-align: center;
+   line-height: 90px;
+}
+#box2 {
+    border-top: 2px solid grey;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+#box2 img {
+    display: block;
+    float: left;
+    margin-top: 20px;
+}
+#box3 {
+    overflow: hidden;
+    border-bottom: 2px grey solid;
+    padding-bottom: 20px;
+}
+#box3 img {
+    float: left;
+    
+}
+.sbox1 {
+    height: 200px;
+    max-width: 650px;
+position: relative;
+float: left;
+}
+.p1 {
+    font-size: 20px;
+    color: rgb(48, 41, 41);
+}
+.p2 {
+    font-size: 12px;
+    color: grey;
+    position: absolute;
+    bottom: 0;
+}
+#box4 {
+    padding-top: 20px;
+    overflow: hidden;
+    border-bottom: 2px grey solid;
+    padding-bottom: 20px;
+}
+#box4 img {
+float: left;
+}
+#box5 {
+    padding: 20px 0 ;
+}
