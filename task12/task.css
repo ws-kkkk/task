@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+table {
+    margin: 0 auto;
+}
+table thead {
+    background-color: black;
+    color: #fff;
+} 
+table th,td {
+    padding: 0 30px;
+}
+table tbody tr:nth-child(1),tr:nth-child(2),tr:nth-child(3) {
+	color:red;
+}
+table tbody tr:nth-child(6) td:nth-last-child(2) {
+    color: red;
+}
+table tbody tr:nth-child(8) td:nth-last-child(2) {
+    color: red;
+}
+tbody tr:nth-child(odd) {
+	background: white;
+}
+tbody tr:nth-child(even) {
+	background: #ccc;
+}
+#textbox {
+    margin-top: 100px;
+    margin-left: 700px;
+}
+input {
+	width:100px;
+    
+}
+input:focus {
+	animation:input 2s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+@keyframes input {
+	form {width:100px;}
+	to { width:200px;}
+}
+#container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+}
+.control {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+.control a {
+    text-decoration: none;
+    background-color: grey;
+}
+#container {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#container span{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+#pgone:target{
+       background: red;
+       display: inline-block;
+}
+#pgtwo:target{
+        background: rgb(255, 251, 0);
+        display: inline-block;
+}
+#pgthree:target{
+        background: rgb(17, 0, 255);
+        display: inline-block;
+}
